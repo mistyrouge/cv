@@ -1,0 +1,168 @@
+/*----- Clear Fix -----*/
+aside .block-properties,
+aside .block-properties ul{
+	display: inline-block;
+	display: block;
+}
+aside .block-properties:after,
+aside .block-properties ul:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+body{
+	background: none;
+}
+ul, li{
+	list-style: none;
+	padding-left: 0;
+}
+#portal-front, 
+.ui-tabs-nav,
+.carousel,
+.navbar, 
+#tickets,
+header, 
+aside,
+aside .block,
+.breadcrumb,
+.view-filter,
+#video-player,
+.content-filter, 
+.actions-social,
+.actions,
+.social,
+.rating,
+.btn_facebook_like,
+a[href="#top"],
+footer, 
+#footer{
+		display: none;
+}
+.front .content-subcontainer .content-maincontent .carousel,
+aside#sidebar_right,
+aside .block-properties,
+aside .attraction-status{
+	display: block;
+}
+	
+.content-subcontainer .content-subcontainer{
+	width: auto;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: none !important;
+	background: none;
+}
+.content-subcontainer .content-subcontainer,
+.content-subcontainer .content-maincontent a,
+.content-subcontainer .content-maincontent a:link,
+.content-subcontainer .content-maincontent a:visited{
+	font: 16px/1 georgia, 'times new roman', serif;
+	color: #000;
+	text-decoration: none;
+}
+
+.content-container .grid-popdown article h1, 
+.content-container .grid-popdown article h1 a {
+    color: #000;
+    font: bold 13px/1 georgia, 'times new roman', serif;
+    margin: 0;
+}
+
+.content-subcontainer .content-maincontent .carousel-filmstrip a:after{
+	content: "";
+}
+.content-subcontainer .content-maincontent .carousel-filmstrip{
+	height: auto !important;
+}
+.content-subcontainer .content-maincontent .carousel-filmstrip li{
+	margin-bottom: 16px;
+}
+.content-subcontainer .content-maincontent .carousel-filmstrip li .frame{
+	position: relative !important;
+	height: auto !important;
+}
+.content-subcontainer .content-maincontent .carousel-filmstrip li .frame img{
+	display: block;
+	width: 185px;
+	height: 156px;
+}
+.content-subcontainer .content-maincontent .carousel-filmstrip li .frame .info{
+	position: absolute;
+	top: 0 !important;
+	padding-left: 200px;
+}
+.content-subcontainer .content-maincontent .carousel-filmstrip li .frame .info .content{
+	display: block !important;
+}
+.content-subcontainer .content-maincontent #attractions{
+	height: auto !important;
+	width: 915px;
+}
+.content-subcontainer .content-maincontent #attractions article,
+.content-subcontainer .content-maincontent #dining article{
+	position: static !important;
+	display: inline-block;
+	width: 232px;
+	margin: -10px 50px 0 0;
+	padding: 10px 9px;
+	vertical-align: top;
+	overflow: hidden;
+}
+.content-subcontainer .content-maincontent #attractions article img{
+	display: block;
+	width: 232px;
+	height: 119px;
+}
+aside .block-properties ul li,
+aside .block-properties h4,
+aside .block-properties h5{
+	float: left;
+	margin-right: 20px;
+	font-size: 13px;
+	margin: 0 20px 0 0;
+}
+aside .block-properties h5{
+	width: 80px;
+	text-align: left;
+}
+
+.content-container table{
+	border: 1px solid #D4E9F3;
+	width: 800px;
+	font-size: 13px;
+}
+.content-container table thead tr th{
+    font-weight: normal;
+    padding: 6px 5px 5px;
+    text-align: center;
+}
+.content-container table tbody tr th{
+	text-align: left;
+}
+.content-container table tbody tr th, .content-container table tbody tr td{
+    border-color: #D4E9F3;
+    border-style: solid;
+    border-width: 1px 2px;
+    font-weight: normal;
+    padding: 6px 13px 5px;
+}
+.content-container table tbody tr td{
+	text-align: center;
+}
+.content-container table tbody tr td .contains{
+	font-size: 24px;
+}
+.content-container .table-key .contains,
+.content-container .table-key .contains-trace{
+    float: left;
+    margin-right: 5px;
+}
+.content-container .table-key .contains{
+	font-size: 24px;
+	margin-top: -6px;
+}

@@ -1,0 +1,1228 @@
+/*----------------------------------------------------------------
+* Filename:			p2p.css
+* Description:		Global CSS
+* Version:			1.0.2.2
+* Author:			Jeremy Pratte
+----------------------------------------------------------------*/
+
+html.p2p {height: 100%; background: #0a5e9b url(/_Assets/ParkSites/Images/bg/html-p2p.png) repeat-x top;}
+
+body.p2p {background-image: url(/_Assets/ParkSites/Images/bg/body-p2p.jpg); background-position: top center; position: relative;}
+
+body.p2p footer {z-index: 2; margin-top: 20px;}
+
+.p2p a { text-decoration: none; }
+
+.p2p .content-subcontainer {min-height: 150px;}
+.p2p .content-maincontent {padding-bottom: 15px; padding-right: 15px; background: url(/_Assets/ParkSites/Images/bg/p2pboxes.png) no-repeat bottom left;}
+
+.content-home-feature-bgimg {position: absolute;top: 1px;right: 0px;width: 831px; height: 534px; background: url(/_Assets/ParkSites/Images/bg/P2P-homefeature.png) no-repeat center; z-index: 10;}
+
+#slideshow-home {position: absolute;top: 1px;right: 0px;width: 831px; height: 534px; z-index: 11;}
+
+.content-home-feature-imgdiv {width: 831px; height: 525px; z-index: 12; margin-left: 40px;
+                              background:url('/_Assets/ParkSites/Images/ico/loading-white.gif') center center no-repeat;
+                              }
+
+.content-home-feature-txtbg {
+	position: absolute;
+	z-index: 13;
+	width: 807px;
+	height: 127px;
+	background: url(/_Assets/ParkSites/Images/p2pfeatures/controls/controls-bg.png) no-repeat top left;
+	left: 79px;
+	top: 362px;
+}
+
+.content-home-feature-controls {
+	position: absolute;
+	z-index: 20;
+	width: 807px;
+	height: 127px;
+	left: 79px;
+	top: 362px;
+}
+
+.content-home-feature-controls-play {
+	position: absolute;
+	z-index: 14;
+	width: 80px;
+	height: 80px;
+	background: url(/_Assets/ParkSites/Images/p2pfeatures/controls/play.png) no-repeat top;
+	left: 70px;
+	top: 22px;
+}
+
+#nav {
+	position: absolute;
+	z-index: 15;
+	right: 90px;
+	top: 107px;
+	padding: 0;
+	margin: 0;
+	height: 22px;
+}
+
+#nav li {
+	width: 21px;
+	height: 22px;
+	float: left;
+	list-style: none;
+	display: inline-block;
+	margin:0;
+	padding: 0;
+	margin-left: 5px;
+	background: url(/_Assets/ParkSites/Images/btn/home-feature-nav.png) no-repeat top;
+	cursor: pointer;
+	z-index: 16;
+}
+
+#nav li:first-child {margin-left: 0px;}
+
+#nav a {display:none; float: left; width: 21px; z-index: 17;}
+#nav a .secondary {display:none; float: left;}
+#nav li.activeLI {background-position: bottom; display: inline-block; float:left;}
+#nav a:focus { outline: none; display: none;}
+
+.content-home-feature-controls-play.pause {background-image: url(/_Assets/ParkSites/Images/p2pfeatures/controls/pause.png);}
+
+.content-subcontainer .portal-front #tickets-packages.ui-tabs.ui-tabs-large {position: absolute; top: 85px; left: 15px; z-index: 15; width: 293px;}
+
+.content-home-feature-txt  {position: absolute; top: 19px; left: 160px; color: #fff; width: 500px;}
+
+.content-home-feature-txt div.header {font-size: 24px; font-variant: small-caps; margin-bottom: 10px;
+									font-family: 'trajan-pro-1','trajan-pro-2','Palatino Linotype','Book Antiqua',Palatino,serif;}
+									
+.content-home-sidebarinfo {position: relative; float: left; margin-left: 25px; width: 290px; height: 175px; background: url(/_Assets/ParkSites/Images/bg/home-info-sidebar.png) no-repeat bottom;
+							z-index: 10; font-size: 11px; font-weight: bold; padding: 66px 15px 0 15px;}
+							
+							.content-home-sidebarinfo .global-left p, .content-home-sidebarinfo .global-right p {display: block; height: 25px; line-height: 25px;} 
+							
+							.content-home-sidebarinfo a:link, .content-home-sidebarinfo a:visited, .content-home-sidebarinfo a:active {text-decoration: none;}
+							.content-home-sidebarinfo a:hover {text-decoration: underline;}
+							
+							.content-home-sidebarinfo .global-left .global-img-left,
+							.content-home-sidebarinfo .global-right .global-img-left {margin-right: 5px;}
+
+.content-home-sidebarinfo-top {position: absolute; width: 137px; height: 56px; top: -2px; background: url(/_Assets/ParkSites/Images/bg/home-info-sidebar-top.png) no-repeat top; z-index: 11;
+								padding: 25px 0 0 30px; color: #005581;}
+								
+								.content-home-sidebarinfo-top .global-bigger {color: #00a1b1; font-size: 20px; display: block; margin-top: 5px;}
+								
+				.content-home-sidebarinfo-top.left {left: -4px;}
+				.content-home-sidebarinfo-top.right {right: -4px; text-align: center; padding-left: 0px; width: 167px; height: 61px; padding-top: 20px;}
+									
+/* BOOKING ENGINE new/modified styles */
+									
+.portal-front #tickets fieldset.amounts {padding-left: 0px; padding-right: 0px; padding-bottom: 7px;}
+
+									
+.portal-front #tickets fieldset.amounts a { text-decoration: none }
+.portal-front #tickets fieldset.amounts a:hover { text-decoration: underline }
+									
+.front #tickets-packages .amounts p.adults-tickets, .front #tickets-packages .amounts p.children-tickets, .front #tickets-packages .amounts p.senior-tickets, .front #tickets-packages .amounts p.country, .front #tickets-packages .amounts p.zip-code, .front #tickets-packages .amounts p.enter-promo  
+{margin-top: 0px; float: left; margin-right: 5px;}
+
+.front #tickets-packages .amounts p.country, .front #tickets-packages .amounts p.zip-code {margin-top: 10px;}
+.front #tickets-packages .amounts p.country {margin-right: 15px;}
+
+.front #tickets-packages .amounts p.where {margin-top: 5px; float: left; margin-right: 15px;}
+
+.front #tickets-packages .amounts p.where input.form-text {width: 100px; height: 15px; background: url(/_Assets/ParkSites/Images/bg/icon-calendar.png) no-repeat 90px center;}
+.front #tickets-packages .amounts p.enter-promo input.form-text {width: 140px; height: 15px;}
+.front #tickets-packages .amounts p.zip-code input.form-text {width: 66px; height: 15px; margin-left: 0;}
+
+.front .content-container #tickets-packages .amounts p label strong {font-size: inherit;}
+
+.front #tickets-packages .amounts p.when {margin-top: 0px; float: left;}
+
+.portal-front #tickets .ui-tabs-panel-t {padding-left: 7px; padding-right: 7px; -webkit-border-bottom-right-radius: 10px;
+																				-webkit-border-bottom-left-radius: 10px;
+																				-moz-border-radius-bottomright: 10px;
+																				-moz-border-radius-bottomleft: 10px;
+																				border-bottom-right-radius: 10px;
+																				border-bottom-left-radius: 10px;}
+																				
+.front #tickets-packages .residency.global-nosidepadding {padding-left: 0px; padding-right: 0px;}	
+
+.front .content-maincontent {margin-top: 10px;}
+
+.front #tickets-packages p.actions {margin-top: 10px; margin-left: 15px;}
+
+.button.big {width: 220px; height: 44px; text-align: center; line-height: 34px; margin-right: 20px; margin-top: 0px;}
+
+.button.big.action span {background-position: 0 -259px;}
+.button.big.action span span {background-position: right -391px; padding-right: 12px;}
+.button.big.action span span span {height: 31px; background-position: right -303px; vertical-align: middle}
+button.button span span span { line-height: 20px; }
+
+.button.big.action:hover span, .button.big.action.big-hover span{
+    background-position: 0 -435px;
+}
+.button.big.action:hover span span, .button.big.action.big-hover span span {background-position: right -567px; padding-right: 12px;}
+.button.big.action:hover span span span, .button.big.action.big-hover span span span {height: 31px; background-position: right -479px; vertical-align: middle}
+
+/* Tickets */
+
+.header-bookonline {position: relative; float: left; width: 570px; height: 90px; margin: 10px 0 0 50px;}
+
+.header-bookonline div {font-size: 11px; font-weight: bold; height: 35px; vertical-align: top;}
+
+.header-bookonline div a {text-decoration: none;}
+.header-bookonline div a:hover {text-decoration: underline;}
+
+.header-bookonline > div {position: relative; display: inline-block; width: 135px; border-right: 1px solid #c5d3c6;}
+.header-bookonline > div + div {position: relative; display: inline-block; width: 201px; padding: 0 15px; border-right: 1px solid #c5d3c6;}
+.header-bookonline > div + div + div {position: relative; display: inline-block; width: 164px; padding-left: 15px; border-right: 0;}
+
+.header-bookonline-bluebanner {position: relative; float: left; width: 570px; height: 30px; background: #0078ae; color: #fff; text-align: center; line-height: 30px; z-index:-1;
+								font-family: 'trajan-pro-1','trajan-pro-2','Palatino Linotype','Book Antiqua',Palatino,serif; font-size: 17px; font-variant: small-caps;}
+								
+.littlehowloscream {
+	position:absolute;
+	width:76px;
+	height:23px;
+	z-index:101;
+	left: 146px;
+	top: 237px;
+}
+								
+
+.poptix-link {
+	position:relative;
+	z-index:102;
+}
+
+.poptix-link h1 { display: inline-block; margin-right: 20px; }
+
+.poptix-link a {font-size: 12px; font-weight: bold; text-decoration: none;} .poptix-link a:hover {text-decoration: underline;}
+
+/* .poptix-link.a {left: 388px;} */
+.poptix-link.b {position: absolute; top: 20px; right: 20px;} 
+
+.content-maincontent-ticketbox header a {text-decoration: none;}
+.content-maincontent-ticketbox header a:hover {text-decoration: underline;}
+								
+.content-maincontent-ticketbox {position: relative; display: inline-block; vertical-align: top; width: 203px; height: 205px; 
+									background: url(/_Assets/ParkSites/Images/bg/ticketbox.png) no-repeat top left; margin-bottom: 25px; padding: 30px 22px 44px 22px;}
+									
+									.content-maincontent-ticketbox-reviews {position: relative; float: left; width: 780px; min-height: 68px; border: 5px solid #d0e5f0;
+																			border-top: none; margin-bottom: 10px;
+																			background: #e7f2f8 url(/_Assets/ParkSites/Images/bg/reviews.png) repeat-x top;}
+																			
+										.content-maincontent-ticketbox-reviews-rev {display: inline-block; vertical-align: top; width: 256px; height: 53px; padding-top: 15px;}
+										
+										.content-maincontent-ticketbox-reviews-rev-logo {position: relative; float: left; padding-right: 20px; width: 120px;}
+										.content-maincontent-ticketbox-reviews-rev-logo img {float: right;}
+										.content-maincontent-ticketbox-reviews-rev-review {position: relative; float: left; width: 100px;}
+									
+		.content-maincontent-ticketbox header {position: relative; float: left; width: 185px; height: 45px; font-size: 15px; color: #293033; line-height: 16px;}
+									
+		.content-maincontent-ticketbox-tixchoose {position: relative; clear: both; width: 201px; border: 1px solid #cfe5f0; margin-bottom: 10px;}
+				
+		.content-maincontent-ticketbox-tixchoose-inner {position: relative; border: 1px solid #d7e9f3; width: 199px; background: #e2eff6;}
+														
+		.content-maincontent-ticketbox-tixchoose-inner table {padding: 0; margin: 0; border: 0; width: 189px; margin: 5px 0 0 5px;}
+		
+	.content-container .content-maincontent-ticketbox-tixchoose-inner table tbody tr td {border: 0px; background: none; height: 30px; color: #293033; padding: 0; margin: 0;
+																							border-width: 0px; text-align: left;}
+		
+		.content-maincontent-ticketbox-tixchoose-inner table tr td:first-child {width: 63px;}
+		.content-maincontent-ticketbox-tixchoose-inner table tr td+td {font-size: 10px;}
+		.content-maincontent-ticketbox-tixchoose-inner table tr td+td+td {width: 12px; font-weight: bold; font-size: 11px;}
+							
+										
+		.content-maincontent-ticketbox-add2cart {
+			position: absolute;
+			width: 101px;
+			height: 30px;
+			left: 27px;
+			top: 253px;
+		}
+		
+		.content-maincontent-allday {position: relative; width: auto; font-size: 15px;}
+		
+		.content-maincontent-allday .content-maincontent-ticketbox-tixchoose {display: inline-block; float: none; margin-top:15px; width: auto; height: auto;} 
+		
+		.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner {width: 600px; height: auto;}
+		
+		.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner > table {width: 100%; margin: 0; background-color: #DDEDF6}
+/* Set padding-left for first cell of each row in main-table */		
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td:first-child
+						{padding-left: 5px;}
+/* Set padding-top for first cell of first row in main-table */						
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr:first-child td
+						{padding-top: 2px;}
+/* Setting other attributes for first cell of main-table */
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td
+						{width: 235px; background: #d9ecf6;}
+
+/* Setting attributes of second cell of main-table (used to be 4th cell) */ 
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner > table tbody tr td + td
+						{width: 28px; padding-left: 40px; font-weight: normal; background: #ddedf6 url(/_Assets/ParkSites/Images/bg/AllDayDining-tablearrowbg-1big.png) no-repeat left center;}
+/* Setting attributes of third cell of main-table (used to be 6th cell) */
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td
+						{width: 75px;  background: #ddedf6; text-align: left; padding-left: 5px;}
+
+/* Setting attributes of fourth cell of main-table (used to be 6th cell) */
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td
+						{width: 120px;  padding-left: 40px; padding-right: 0px; background: #e2eff6 url(/_Assets/ParkSites/Images/bg/AllDayDining-tablearrowbg-2big.png) no-repeat left center;}
+/* Setting attributes of inputs in fourth cell of main-table (used to be in 6th cell) */
+	.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td input {margin: 0; padding: 0; height: auto;}
+	/* Setting attributes of button spans (background image tweak) in fourth cell of main-table (used to be in 6th cell) */
+	.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td .action > span > span {background-position: right -96px;}
+	.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td .action span span {padding-right: 12px;}
+	
+/* Setting attributes for first cell of inbedded-table in first cell of main-table */
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td:first-child table tbody tr td:first-child {width: 65px; background: #d9ecf6; padding-bottom: 0px;}
+/* Setting attributes for second cell of inbedded-table in first cell of main-table */
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td table tbody tr td + td {width: 100px; padding-left: 10px; background: 0;}
+/* Setting attributes for third cell of inbedded-table in first cell of main-table */
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td table tbody tr td + td + td {width: 50px; font-weight: bold;}
+		
+.p2p aside.sidebar-right {width: 150px; position: absolute; top: 0; right: 8px; border: 5px solid #fff;
+							border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; min-height: 148px; padding: 5px; 
+							background: url(/_Assets/ParkSites/Images/bg/p2p-right-rail.png) repeat-x bottom;}
+							
+							.p2p aside.sidebar-right > table {width: 145px; padding: 0; margin: 0; border: 0; border-spacing: 0px;}
+														
+							.p2p aside.sidebar-right > table tbody tr td,
+							.p2p aside.sidebar-right > table tbody tr th
+							{font-size: 11px; text-align: left; width: 90px; background: none; padding: 0; margin: 0; border: none; line-height: normal; color: #333}
+							
+							.p2p aside.sidebar-right > table tbody tr:first-child th + th, .p2p aside.sidebar-right > table tr td + td {text-align: right; width: 140px;}
+														
+							.p2p aside.sidebar-right > table tbody tr:first-child th {padding-bottom: 15px; border-bottom: 1px solid #c5d3c6; font-weight: bold;}
+							
+							.p2p aside.sidebar-right > table tbody tr td {padding-top: 8px;}
+							/*.p2p aside.sidebar-right > table tbody tr:first-child + tr + tr td {padding-top: 8px;}*/
+							.p2p aside.sidebar-right > table tbody tr.total td {font-weight: bold; padding-bottom: 10px;
+																								border-bottom: 1px solid #c5d3c6; padding-top: 8px;}
+							.p2p aside.sidebar-right > table tbody tr.total + tr td {padding-top: 12px; width: 140px;}
+							/* .p2p aside.sidebar-right > table tbody tr:first-child + tr + tr + tr + tr td {padding-top: 16px; text-align: center; width: 140px;}*/
+							/*.p2p aside.sidebar-right > table tbody tr:first-child + tr + tr + tr + tr + tr td {padding-top: 12px; width: 140px;}*/
+							
+							.p2p aside.sidebar-right > table tbody th a:link,
+							.p2p aside.sidebar-right > table tbody th a:visited,
+							.p2p aside.sidebar-right > table tbody th a:active,
+							.p2p aside.sidebar-right > table tbody th a:hover {font-weight: normal; text-decoration: none;}
+							.p2p aside.sidebar-right > table tbody th a:hover {text-decoration: underline;}
+							
+							.p2p aside.sidebar-right > table tbody tr:first-child + tr + tr + tr + tr td a:link,
+							.p2p aside.sidebar-right > table tbody tr:first-child + tr + tr + tr + tr td a:visited,
+							.p2p aside.sidebar-right > table tbody tr:first-child + tr + tr + tr + tr td a:active,
+							.p2p aside.sidebar-right > table tbody tr:first-child + tr + tr + tr + tr td a:hover {font-weight: bold; text-decoration: none; font-size: 10px;}
+							.p2p aside.sidebar-right > table tbody tr:first-child + tr + tr + tr + tr td a:hover {text-decoration: underline;}
+							
+.content-maincontent-getrecboxes {position: relative; display: inline-block; vertical-align: top; width: 215px; padding: 0 15px; margin: 0 0 20px 0;
+									font-size: 15px; color: #293033;}
+									
+			.content-maincontent-getrecboxes + .content-maincontent-getrecboxes {border-left: 1px solid #c5d3c6; }
+			.content-maincontent-getrecboxes + .content-maincontent-getrecboxes + .content-maincontent-getrecboxes {border-left: 1px solid #c5d3c6; min-height: 127px; }
+			
+.content-container .content-maincontent-getrecboxes table {border: 0; padding: 0; margin: 15px 0 0 0; width: 215px;}
+
+.content-container .content-maincontent-getrecboxes table tbody tr td {margin: 0; padding: 0 0 15px 0; background: none; border: 0; font-size: 12px; text-align:left;
+																		color: #293033;}
+
+.content-container .content-maincontent-getrecboxes table tbody tr td:first-child {width: 25px;}
+
+.content-container .content-maincontent-getrecboxes table tbody tr td+td {width: 175px;}
+
+.content-container .content-maincontent-getrecboxes + .content-maincontent-getrecboxes table tbody tr td:first-child {width: 90px; font-size: 11px;}
+
+.content-container .content-maincontent-getrecboxes + .content-maincontent-getrecboxes table tbody tr td+td {width: 130px;}
+
+.content-maincontent-getrec-btm {clear: both; border-top: 2px solid #cbe3ee; height: 40px; padding: 25px 20px 0px; font-size: 12px; color: #293033;}
+
+.content-maincontent-getrec-btm p {margin-top:0; padding-top: 0;}
+
+.content-maincontent-getrec-btm .global-right { vertical-align: middle }
+
+/* product filters */
+.content-maincontent-ticketfilter {position: relative; float: left; border: 1px solid #cfe5f0; width: 746px; padding: 1px; background-color: #d7e9f3; margin-bottom: 20px;}
+
+.content-maincontent-ticketfilter.inner {border-color: #ddecf4; width: 714px;padding: 15px; min-height: 57px; background: #e2eff6; margin-bottom: 0px; overflow: hidden;}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner table {margin: 0; padding: 0; border: 0; }
+
+body .content-maincontent .content-maincontent-ticketfilter.inner th,
+body .content-maincontent .content-maincontent-ticketfilter.inner td {margin: 0; border: none; background: none; text-align: left}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner > table {width: 696px; background: none;}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner > table > tbody > tr > th,
+body .content-maincontent .content-maincontent-ticketfilter.inner > table > tbody > tr > td {margin: 0; padding: 8px 0px 0 5px; border: 0; background: none; font-size: 12px;
+																					border-left: 1px solid #c6d3d9; text-align: left; color: #576166; vertical-align: top} 
+																					
+	body .content-maincontent .content-maincontent-ticketfilter.inner  > table tbody tr:first-child th,
+	body .content-maincontent .content-maincontent-ticketfilter.inner > table tbody tr:first-child td {padding-top: 0px;}
+																					
+body .content-maincontent .content-maincontent-ticketfilter.inner table table tbody tr td,
+body .content-maincontent .content-maincontent-ticketfilter.inner table tbody tr th:first-child,
+body .content-maincontent .content-maincontent-ticketfilter.inner table tbody tr td:first-child {border-left-width: 0px; width: 170px}
+
+.content-maincontent-ticketfilter.inner > table tbody tr th {font-weight: bold; padding-left: 0px}
+
+
+
+/* end product filters */
+
+.content-container h2.backtotop {position: relative; width: 100%;}
+
+.content-container h2.backtotop span {position: absolute; right: 0px; font-size: 10px; font-weight: normal; margin: 0; padding: 0;}
+
+.content-container h1 span.backtotop { float: right; font-size: 10px; font-weight: normal; margin: 0; padding: 0; font-family: helvetica,arial,sans-serif; margin: 20px 15px 0px 0px; font-variant: normal; letter-spacing: normal}
+
+.global-clear {display: block; margin: 0; padding: 0;}
+
+.content-maincontent-ticketbox .content-maincontent-ticketbox-add2cart .action {margin-top: -1px;}
+
+.content-maincontent-ticketbox .content-maincontent-ticketbox-add2cart .action > span > span {background-position: right -96px; padding-right: 12px;}
+
+.p2p aside.sidebar-right > table.summary tbody tr:first-child th {border-bottom: 0; padding-bottom: 6px; white-space: nowrap;}
+
+
+.p2p aside.sidebar-right > table.summary tbody tr.nextStep td {text-align: center}
+
+.p2p aside.sidebar-right > table.summary tbody tr+tr td {padding-top: 0px;}
+.p2p aside.sidebar-right > table.summary tbody tr+tr+tr td {padding-top: 10px;}
+
+.p2p aside.sidebar-right > table.summary tbody tr+tr td > div {position: relative; width: 156px; border: 1px solid #e7edf0; padding: 1px;
+																background: #ebf1f4; width: 99%;}
+
+.p2p aside.sidebar-right > table.summary tbody tr+tr td > div table {padding: 0; margin: 0; border: 1px solid #eef4f7; background: #f0f7fa;}
+
+.p2p aside.sidebar-right > table.summary tbody tr+tr td > div > table tr > td {padding: 8px 3px; background: #f0f7fa; text-align: left; width: auto;}
+
+
+.p2p aside.sidebar-right > table.summary tbody tr:first-child + tr + tr + tr td {font-weight: normal; border-bottom: 0; padding-bottom: 0px;}
+.p2p aside.sidebar-right > table.summary tbody tr.total td {padding-top: 8px; width: inherit; text-align: left; font-weight: bold; border-bottom: 1px solid #c5d3c6; padding-bottom: 8px;}
+.p2p aside.sidebar-right > table.summary tbody tr.total td + td {text-align: right;}
+.p2p aside.sidebar-right > table.summary tbody tr.total + tr td {padding-top: 16px; text-align: left; width: 140px; font-weight: normal;}
+.p2p aside.sidebar-right > table.summary tbody tr.total + tr td + td {text-align: right; width: 50px; }
+
+.p2p aside.sidebar-right > table.summary tbody tr.total + tr + tr td {text-align: left;}
+.p2p aside.sidebar-right > table.summary tbody tr.total + tr + tr td + td {text-align: right;}
+
+.p2p aside.sidebar-right > table tr.yousave td {font-weight: bold; color: #5a9742; border-bottom: 1px solid #c5d3c6; padding-bottom: 8px;}
+.p2p aside.sidebar-right > table tr.yousave + tr td {padding-top: 16px;}
+
+.p2p-steps {position: relative; float: left; width: 525px; height: 40px; margin: 10px 0 0 50px; padding: 15px 0 0 50px;
+			background: url(/_Assets/ParkSites/Images/bg/p2p-steps.png) no-repeat top left; font-family: 'trajan-pro-1','trajan-pro-2','Palatino Linotype','Book Antiqua',Palatino,serif;
+			color: #8a9499; font-weight: bold; font-size: 14px; font-variant: small-caps;}
+			
+			.p2p-steps .selected {color: #0078ae;}
+			
+body.p2p.wide .content-subcontainer {width: 97px;}
+
+body.p2p.wide .content-subcontainer .content-maincontent {background-image: url(/_Assets/ParkSites/Images/bg/p2pboxes-wide.png);}
+
+body.p2p.wide .content-subcontainer .content-maincontent .poptix-link.b {width: 80px; left: 890px;}
+
+.content-maincontent.wide {background-image: url(/_Assets/ParkSites/Images/bg/p2pboxes-wide.png); padding-bottom: 25px}
+
+.content-maincontent-cartbox {position: relative; padding: 23px 0; border-top: 2px solid #e2eff6; }
+
+.content-maincontent-cartbox > table { margin: 0; border: 0; padding: 0;}
+.content-maincontent-cartbox > table tbody tr th,
+.content-maincontent-cartbox > table tbody tr td {color: #293033; padding: 13px; margin: 0; border: 0; font-size: 12px; text-align: left;}
+
+.content-maincontent-cartbox > table tbody tr th:last-child,
+.content-maincontent-cartbox > table tbody tr td:last-child {text-align: right;}
+
+.content-maincontent-cartbox > table tbody tr th:first-child,
+.content-maincontent-cartbox > table tbody tr td:first-child {width: 530px;}
+
+.content-maincontent-cartbox > table tbody tr th {background: #0078ae; color: #fff; font-weight: bold;}
+
+.content-maincontent-cartbox > table tbody tr.ends td {background: none !important;}
+
+.content-maincontent-cartbox > table tbody tr td#total {border-top: 1px solid #c5d3c6;}
+
+.content-maincontent-cartbox > table tbody tr.savings td {padding: 5px 13px;}
+
+.content-maincontent-cartbox > table tbody tr td#yousave {background-color: #e6ebee; color: #5A9742; font-weight: bold;}
+
+#textright {text-align: right;}
+
+.content-maincontent-required {position: relative; width: 100%; border-top: 2px solid #e2eff6; text-align: right; font-size: 11px; padding-top: 20px;}
+
+.content-maincontent-enterinfo {position: relative; width: 100%; padding-bottom: 20px; border-bottom: 1px solid #e4eaed; margin-bottom: 20px;}
+
+.content-maincontent-enterinfo table, .content-maincontent-enterbillinginfo table {width: 100%; margin: 0; border: 0; padding: 0;}
+
+.content-maincontent-enterinfo table tbody tr th,
+.content-maincontent-enterinfo table tbody tr td {margin: 0; border: 0; padding: 0; color: #293033; font-size: 12px; font-weight: normal; text-align: left;}
+.content-maincontent-enterinfo table tbody tr td {padding: 13px 0 13px 13px;}
+.content-maincontent-enterinfo table tbody tr th {padding: 13px 0 10px 13px; background: none; color: #576166;}
+
+.content-maincontent-enterinfo table tbody tr td:first-child {font-size: 18px; color: #005581; font-weight: bold;}
+
+.content-maincontent-enterinfo table tbody tr td input[type="text"] {border: 1px solid #a5adad; padding: 6px; height: 8px;}
+
+.content-maincontent-enterinfo table tbody tr td.mi {width: 20px;}
+.content-maincontent-enterinfo table tbody tr td.name {width: 165px;}
+
+.content-maincontent-enterinfo table tbody tr td.mi input[type="text"] {width: 6px;}
+.content-maincontent-enterinfo table tbody tr td.name input[type="text"] {width: 153px;}
+
+.content-maincontent-enterbillinginfo {position: relative; margin-top: 45px; padding-bottom: 20px; border-bottom: 1px solid #e4eaed;}
+
+.content-maincontent-enterbillinginfo table {width: 700px; margin-bottom: 10px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td {margin: 0; border: 0; padding: 0 10px 5px 0; color: #576166; font-size: 12px; font-weight: normal; text-align: left;}
+
+body .content-container .content-maincontent-enterbillinginfo table tbody tr td {background: none;}
+
+.content-maincontent-enterbillinginfo table tbody tr td input[type="text"],
+.content-maincontent-enterbillinginfo table tbody tr td input[type="email"],
+.content-maincontent-enterbillinginfo table tbody tr td input[type="password"],
+.content-maincontent-enterbillinginfo table tbody tr td select {border: 1px solid #a5adad; padding: 6px; height: 8px;}
+
+.content-maincontent-enterbillinginfo table tbody tr.even td {padding-bottom: 20px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td:first-child {width: 195px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td:first-child input[type="text"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child input[type="email"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child input[type="password"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child select {width: 181px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td {width: 50px;}
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td input[type="text"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td input[type="email"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td input[type="password"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td select {width: 36px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td {width: 195px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td input[type="text"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td input[type="email"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td input[type="password"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td select {width: 181px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td + td {width: 225px;}
+
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td + td input[type="text"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td + td input[type="email"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td + td input[type="password"],
+.content-maincontent-enterbillinginfo table tbody tr td:first-child + td + td + td select {width: 80px;}
+
+.p2p .content-maincontent {background-color: #fff; }
+
+.content-maincontent-enterbillinginfo table.tick-del {width: 100%;}
+
+.content-maincontent-enterbillinginfo table.tick-del tbody tr th,
+.content-maincontent-enterbillinginfo table.tick-del tbody tr td {padding: 10px; border-bottom: 1px solid #e6eaec; width: auto; white-space: nowrap;}
+
+.content-maincontent-enterbillinginfo table.tick-del tbody tr th {background-color: #e2eff6; border: 0;}
+
+.button.big.action.orange {width: 160px; height: 44px; text-align: center; line-height: 34px; margin-right: 20px; margin-top: 0px;
+							font-size: 15px !important; color: #ffffff !important;}
+
+.button.big.action.orange span {background-position: 0 -1699px;}
+.button.big.action.orange span span {background-position: right -1831px; padding-right: 12px;}
+.button.big.action.orange span span span {height: 31px; background-position: right -1743px;}
+.button.big.action.orange span span span a {color: #fff; margin-left: -25px; text-decoration: none; line-height: 15px}
+
+.button.big.action.grey {width: 105px; height: 44px; text-align: center; line-height: 34px; margin-right: 20px; margin-top: 0px;
+							font-size: 15px !important; color: #576166 !important;}
+
+.button.big.action.grey span {background-position: 0 -1875px;}
+.button.big.action.grey span span {background-position: right -2007px; padding-right: 12px;}
+.button.big.action.grey span span span {height: 31px; background-position: right -1919px; padding-left: 10px;}
+.button.big.action.grey span span span a {color: #576166; text-decoration: none; line-height: 15px}
+
+body .modal-overlay-shadow {height: 500%;}
+
+.content-maincontent-bytheway {position: absolute; right: 0; top: 0; width: 315px; height: 30px; padding: 15px; background: #d9ebf3; font-size: 12px;}
+
+.modal-overlay header.split,
+.modal-overlay section.split,
+.modal-overlay footer.split {width: 216px; border-right: 1px solid #b1b2b3; display: inline-block; vertical-align: top; margin: 0px; padding-right: 10px;}
+
+.modal-overlay header.split {font-size: 13px; font-weight: bold; line-height: 16px;}
+
+.modal-overlay header.split+header,
+.modal-overlay section.split+section,
+.modal-overlay footer.split+footer {border-right: 0; width: 226px; padding-left: 25px; border-left: 1px solid #b1b2b3; margin-left: -5px; padding-right: 0;}
+
+.modal-overlay-or {position: absolute; width: 33px; height: 33px; text-align: center; line-height: 33px; background: #fff; top: 44%; left: 44%;}
+
+.modal-overlay input[type="text"],
+.modal-overlay input[type="email"],
+.modal-overlay input[type="password"] {border: 1px solid #b1b2b3;}
+
+
+
+.button.big.action.grey-sm {width: 88px; height: 28px; text-align: center; line-height: 28px; margin-right: 20px; margin-top: 0px;
+							color: #576166 !important; overflow: hidden;}
+
+.button.big.action.grey-sm span {background-position: 0 -2049px;}
+.button.big.action.grey-sm span span {background-position: right -2145px; padding-right: 12px;}
+.button.big.action.grey-sm span span span {height: 31px; background-position: right -2081px; padding-left: 10px;}
+
+.error {color: #ed1c24;}
+table tbody tr td.error {color: #ed1c24;}
+
+.error input[type="text"], .error input[type="email"] {border-color: #ed1c24;}
+table tbody tr td.error input[type="text"], table tbody tr td.error input[type="email"] {border-color: #ed1c24;}
+
+table tbody tr.even.error td {padding-bottom: 0px;}
+table tbody tr.odd.error td {padding-bottom: 0px;}
+
+.error ul {margin-top: 0px;}
+
+.error ul li {list-style-image: url(/_Assets/ParkSites/Images/general/error-bullet.png); padding-left: 10px; color: #ed1c24; background: none;}
+
+.content-maincontent-confirm-icon {position: relative; width: auto; padding: 0 0 30px 70px; background-repeat: no-repeat; background-position: top left;
+									border-bottom: 2px solid #c2deec; margin: 25px 0;}
+									
+									.content-maincontent-confirm-icon + .content-maincontent-confirm-icon {border-bottom: 0;}
+
+.content-maincontent-confirm-icon.check {background-image: url(/_Assets/ParkSites/Images/general/confirm-check.png);}
+.content-maincontent-confirm-icon.tix {background-image: url(/_Assets/ParkSites/Images/general/confirm-tix.png);}
+
+.content-maincontent-ticketvoucherdetails {position: relative; width: 650px; background: #fff; padding: 20px; color: #293033;}
+
+.content-maincontent-ticketvoucherdetails > p {margin-top: 0px; margin-bottom: 15px;}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner .content-maincontent-ticketvoucherdetails table {border: 0; padding: 0; margin: 0;
+																													width: 650px; margin-bottom: 20px;}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner .content-maincontent-ticketvoucherdetails table tbody tr td,
+body .content-maincontent .content-maincontent-ticketfilter.inner .content-maincontent-ticketvoucherdetails table tbody tr th {padding: 10px; font-size: 12px; margin: 0; border: 0; font-size: 12px; color: #293033;}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner .content-maincontent-ticketvoucherdetails table tbody tr.even td {background: #EDF8FE;}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner .content-maincontent-ticketvoucherdetails table tbody tr th {background: #0078ae; color: #fff; font-weight: bold;}
+
+.content-maincontent-ticketfilter.half {width: 346px; display: inline-block; vertical-align: top; color: #293033;}
+.content-maincontent-ticketfilter.inner.half {width: 314px; height: 200px;}
+.content-maincontent-ticketfilter.inner.half p {margin-top: 0px; margin-bottom: 15px;}
+
+.content-maincontent-ticketfilter.half + .content-maincontent-ticketfilter.half {margin-left: 30px;}
+
+.content-maincontent-ticketfilter-orbox {position: relative; width: 100%; padding-top: 4px; margin-bottom: 4px; font-size: 0; clear:both; border-bottom: 1px solid #9ca8ae;}
+
+.content-maincontent-ticketfilter-orbox-or {position: absolute; width: 33px; height: 33px; text-align: center; line-height: 33px; background: #E2EFF6;
+											top: -12px; left: 44%; font-size: 12px;}
+											
+										.content-maincontent-ticketfilter.inner.half .button.big.action.grey-sm {width: 86px;}
+										
+										.content-maincontent-ticketfilter.inner.half input[type="text"],
+										.content-maincontent-ticketfilter.inner.half input[type="email"],
+										.content-maincontent-ticketfilter.inner.half input[type="password"] {border: 1px solid #a5adad; color: #576166; padding: 10px;}
+.content-maincontent-ticketbox 
+{
+	background: url(../Images/bg/tixbox-outer-bg.png) repeat-x bottom left #fff;
+	background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyMyUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTJlZmY2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 23%, rgba(226,239,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,rgba(255,255,255,1)), color-stop(100%,rgba(226,239,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 23%,rgba(226,239,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 23%,rgba(226,239,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 23%,rgba(226,239,246,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 23%,rgba(226,239,246,1) 100%); /* W3C */
+border-collapse: separate;
+padding: 5px; width: 230px; height: auto;
+-webkit-box-shadow: 0px 1px 8px rgba(50, 50, 50, 0.50);
+-moz-box-shadow:    0px 1px 8px rgba(50, 50, 50, 0.50);
+box-shadow:         0px 1px 8px rgba(50, 50, 50, 0.50);
+border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px; margin-right: 10px;}
+
+@media \0screen {
+	.content-maincontent-ticketbox {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eff6',GradientType=0 );
+									border: 2px solid #e3e8ea; margin-right: 4px; border-bottom-width: 3px; border-top-width: 1px;
+									background: url(../Images/bg/tixbox-outer-bg.png) repeat-x bottom left #fff;
+									}
+}
+
+*+html .content-maincontent-ticketbox {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eff6',GradientType=0 );
+                                       background: url(../Images/bg/tixbox-outer-bg.png) repeat-x bottom left #fff;
+										border: 1px solid #e3e8ea; margin-right: 8px;}
+
+:root .content-maincontent-ticketbox {box-shadow: 0px 1px 14px rgba(50, 50, 50, 0.50) \0/IE9; }  /* IE9 + IE10pp4 */
+
+.content-maincontent-ticketbox + .content-maincontent-ticketbox + .content-maincontent-ticketbox {margin-right: 0px;}
+.content-maincontent-ticketbox + .content-maincontent-ticketbox + .content-maincontent-ticketbox  + .content-maincontent-ticketbox {margin-right: 8px;}
+.content-maincontent-ticketbox + .content-maincontent-ticketbox + .content-maincontent-ticketbox  + .content-maincontent-ticketbox  + .content-maincontent-ticketbox  + .content-maincontent-ticketbox {margin-right: 0px;}
+.content-maincontent-ticketbox + .content-maincontent-ticketbox + .content-maincontent-ticketbox  + .content-maincontent-ticketbox  + .content-maincontent-ticketbox  + .content-maincontent-ticketbox  + .content-maincontent-ticketbox {margin-right: 8px;}
+
+.content-maincontent-ticketbox.inner {position: relative; float: left; width: 200px; padding: 15px; border: 0;
+border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px;
+background: url(../Images/bg/tixbox-inner-bg.png) repeat-x top left #fff;
+background: rgb(248,250,251); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZmFmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQxJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top, rgba(248,250,251,1) 0%, rgba(255,255,255,1) 41%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,250,251,1)), color-stop(41%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(248,250,251,1) 0%,rgba(255,255,255,1) 41%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(248,250,251,1) 0%,rgba(255,255,255,1) 41%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(248,250,251,1) 0%,rgba(255,255,255,1) 41%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(248,250,251,1) 0%,rgba(255,255,255,1) 41%); /* W3C */
+box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+
+@media \0screen {
+	.content-maincontent-ticketbox.inner {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fafb', endColorstr='#ffffff',GradientType=0 );
+	                                      
+background: url(../Images/bg/tixbox-inner-bg.png) repeat-x top left #fff;
+}
+}
+
+*+html .content-maincontent-ticketbox.inner {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fafb', endColorstr='#ffffff',GradientType=0 );
+background: url(../Images/bg/tixbox-inner-bg.png) repeat-x top left #fff;} 
+
+/*.content-maincontent-ticketbox.height1 {height: 261px;}
+.content-maincontent-ticketbox.height1 .content-maincontent-ticketbox.inner {height: 230px;} */
+
+.content-maincontent-ticketbox.inner .content-maincontent-ticketbox-add2cart {top: 249px;}
+
+.content-maincontent-ticketbox.height2 {height: 291px;}
+.content-maincontent-ticketbox.height2 .content-maincontent-ticketbox.inner {height: 260px;}
+
+.content-maincontent-ticketbox.height2 .content-maincontent-ticketbox.inner .content-maincontent-ticketbox-add2cart {top: 279px;}
+
+.content-maincontent-webexclusive {position: absolute; width: 76px; height: 69px; top: 0; right: 0; z-index: 80;
+										background-repeat: no-repeat; background-position: right top;}
+
+.content-maincontent-webexclusive.hide + div.content-maincontent-ticketbox.inner > header { width: 203px }
+
+.content-maincontent-ticketbox.height2 .content-maincontent-ticketbox.inner .content-maincontent-ticketbox-tixchoose {height: 123px;}
+.content-maincontent-ticketbox.height2 .content-maincontent-ticketbox.inner .content-maincontent-ticketbox-tixchoose-inner {height: 121px;}
+
+.content-maincontent-extras, .content-maincontent p.line {position: relative; width: 100%; padding-top: 15px; border-top: 1px solid #e3e6ea; color: #293033; margin-top: 15px;}
+
+.content-maincontent-ticketbox-tixchoose.big {height: 176px; width: 660px;}
+
+.content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner {height: 174px; width: 658px;}
+
+.content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td:first-child {width: 320px;}
+						
+.content-container .content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td
+																{padding: 5px 0 5px 5px; height: 174px;}
+																
+.content-container .content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td p {margin-bottom: 8px; margin-top: 0px;}
+
+.content-container .content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td 
+						{width: 30px; font-weight: normal; background: #ddedf6 url(/_Assets/ParkSites/Images/bg/AllDayDining-tablearrowbg-1big.png) no-repeat left center;}
+						
+.content-container .content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td
+						{background-image: none; padding-left: 0px; width: 165px;}
+						
+.content-container .content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td
+						{padding-left: 30px; background: #e2eff6 url(/_Assets/ParkSites/Images/bg/AllDayDining-tablearrowbg-2big.png) no-repeat left center;}
+						
+.content-container .content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td {text-align: left;}
+
+.content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table {width: 655px;}
+
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose.big .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td .action > span > span {background-position: right -96px;}
+
+.content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td .action span span span {background-position-y: -32px; }
+
+.p2p aside.sidebar-right > table tbody tr td .button.action {color: #FFFFFF !important;}
+
+.p2p aside.sidebar-right > table tbody tr td .action span {background-position: 0 -609px;}
+
+.p2p aside.sidebar-right > table tbody tr td .action span span {background-position: right -705px; padding-right: 12px;}
+
+.p2p aside.sidebar-right > table tbody tr td .action span span span {background-position: 0 -641px;}
+
+.p2p aside.sidebar-right > table tbody tr td .button span span span {height: 20px; padding: 10px 33px 0 33px;}
+
+.content-maincontent-webexclusive.reverse {left: 0; background-position: left top;}
+
+.content-maincontent-webexclusive.reverse.modal {top: -5px; left: -5px; background-position: -1px -1px;}
+
+.p2p aside.sidebar-right > table.summary tbody tr+tr td > div + div {margin-top: 5px;}
+
+.p2p-steps a:link,
+.p2p-steps a:visited,
+.p2p-steps a:active,
+.p2p-steps a:hover 
+			{font-family: 'trajan-pro-1','trajan-pro-2','Palatino Linotype','Book Antiqua',Palatino,serif; padding: 0; margin: 0;
+			color: #8a9499; font-weight: bold; font-size: 14px; font-variant: small-caps; text-decoration: none;}
+			
+			.p2p-steps .selected a:link, .p2p-steps .selected a:visited, .p2p-steps .selected a:active,
+			.p2p-steps a:hover {color: #0078ae;}
+			
+.content-maincontent-ticketfilter.inner.promo {color: #293033;}
+
+.content-maincontent-ticketfilter.inner.promo table {width: 670px;}
+
+body .content-maincontent .content-maincontent-ticketfilter.inner.promo table tbody tr th, body .content-maincontent .content-maincontent-ticketfilter.inner.promo table tbody tr td {border: inherit;}
+
+.content-maincontent-ticketbox-tixchoose-inner table tbody tr td table {margin: 0; width: auto;}
+
+aside.sidebar-right + aside.sidebar-right {top: 210px;}
+
+
+.content-maincontent-ticketfilter-datetime {position: relative; height: 27px; line-height: 27px; float: right; margin-bottom: 4px; clear:both;}
+
+.content-maincontent-ticketfilter-datetime-input {position: relative; height: 27px; line-height: 27px; float: left; margin-bottom: 4px; clear:both;}
+
+/*.content-maincontent-ticketfilter-datetime > .selector {margin-left: -35px;}
+.content-maincontent-ticketfilter-datetime > select {margin-left: -35px;}*/
+
+.ui-datepicker-title {color: #293033;}
+.ui-datepicker table thead tr th {color: #c3cace; border: 0; background: none;}
+.ui-datepicker table tr td {border: 1px solid #dfe1e2; font-weight: bold;}
+.ui-datepicker-unselectable, .ui-state-disabled {background: #ededed; color: #c3cace; cursor: inherit;}
+.ui-datepicker table tbody tr td a {background: #7fbbd6; color: #fff;}
+.ui-datepicker table tbody tr td.ui-datepicker-today, .ui-datepicker table tbody tr td.ui-datepicker-today a {background: #f9f9f9;}
+
+.ui-datepicker table tbody tr td a:hover {color: #fff; background: #0078ae; }
+
+*+html .ui-datepicker {background: #fff url(/_Assets/ParkSites/Images/bg/ui-datepicker-IE8-7.png) repeat-x top;}
+@media \0screen {
+.ui-datepicker	{background: #fff url(/_Assets/ParkSites/Images/bg/ui-datepicker-IE8-7.png) repeat-x top;}
+}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big {width: 690px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big .ui-datepicker-prev {width: 30px; height: 30px;}
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big .ui-datepicker-next {width: 30px; height: 30px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big a.ui-datepicker-prev span, .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big a.ui-datepicker-next span
+																		{background-image: url(/_Assets/ParkSites/Images/btn/datepicker-prev-next-big.png); width: 30px; height: 30px;}
+																		
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big a.ui-datepicker-next span {background-position: -30px 0;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big a.ui-datepicker-prev:hover span {background-position: 0 -30px;}
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big a.ui-datepicker-next:hover span {background-position: -30px -30px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all .ui-datepicker-title {font-size: 20px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table {border-bottom: 3px solid #dfe1e2;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td+td+td+td+td+td+td {border-right-width: 3px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr th {font-size: 12px; width: 84px; height: 16px; position: relative;}
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td {font-size: 11px; width: 84px; height: 86px; background: #fff; position: relative; border: 2.5px solid #dfe1e2; border-collapse: separate; margin: 0; vertical-align: top; cursor: pointer; font-weight: normal;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td:hover {border-color: #0078ae;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td:first-child {border-left-width: 3px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr:first-child td {border-top-width: 3px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big * {border-collapse: separate; border-spacing: 0px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td.ui-datepicker-unselectable.ui-state-disabled {background: #f9f9f9;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td.ui-datepicker-unselectable.ui-state-disabled a,
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td.ui-datepicker-unselectable.ui-state-disabled span
+{background: #ededed;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td.ui-datepicker-unselectable.ui-state-disabled {cursor: inherit;}
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td.ui-datepicker-unselectable.ui-state-disabled:hover {border-color: #dfe1e2;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr th.ui-datepicker-week-end {font-size: 12px;}
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tr td.ui-datepicker-week-end {font-size: 11px;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td a,
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td span
+											{width: 25px; height: 25px; padding: 0; text-align: center; line-height: 25px; vertical-align: top; font-weight: bold;}
+											
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td a:hover,
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td span:hover {background: #7FBBD6;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td:hover a,
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td:hover span
+											{background: #0078ae;}
+											
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td.ui-datepicker-today:hover a,
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td.ui-datepicker-today:hover span {color: #fff;}
+
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.big table tbody tr td.ui-datepicker-today {color: inherit;}
+
+.ui-datepicker {position: relative; background-image: none; border: 4px solid #e2eff6;
+border-top-color: #f3f8fb;
+border-left-color: #ecf5f9;
+border-right-color: #ecf5f9;
+border-bottom-color: #e2eff6;
+border-radius: 7px; -moz-border-radius: 7px; -webkit-border-radius: 7px;
+background: rgb(248,250,251); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZmFmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYmZjZmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(248,250,251,1) 0%, rgba(251,252,253,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,250,251,1)), color-stop(100%,rgba(251,252,253,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(248,250,251,1) 0%,rgba(251,252,253,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(248,250,251,1) 0%,rgba(251,252,253,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(248,250,251,1) 0%,rgba(251,252,253,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(248,250,251,1) 0%,rgba(251,252,253,1) 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fafb', endColorstr='#fbfcfd',GradientType=0 );  IE6-8 */
+box-shadow: -2px 4px 7px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: -2px 4px 7px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: -2px 4px 7px rgba(0, 0, 0, 0.17);
+    -webkit-border-image: 
+    	-webkit-gradient(linear, 0 100%, 0 0, from(white), to(rgba(226, 239, 246, 0))) 0 100%;
+    -webkit-border-image: 
+    	-webkit-linear-gradient(bottom, white 1 100%);
+    -o-border-image:
+    	     -o-linear-gradient(bottom, white, rgba(226, 239, 246, 0)) 1 100%;
+    -moz-border-image:
+    	   -moz-linear-gradient(bottom, white, rgba(226, 239, 246, 0)) 1 100%; 
+}
+.ui-datepicker { background-color: #fff; }
+
+:root .ui-datepicker {box-shadow: -2px 4px 12px rgba(0, 0, 0, 0.17) \0/IE9; }  /* IE9 + IE10pp4 */
+
+.bottoms {position: absolute; z-index: 1; width: 100%; height: 560px; left: 0; bottom: 0; background: #fff url(/_Assets/ParkSites/Images/bg/bottom.png) repeat-x;}
+
+.content-maincontent-extras.ammenities {position: relative; margin-top: 15px; width: 100%; border: 0; padding: 0; clear: both;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose {width: auto; height: auto;}
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner
+						{width: auto; height: auto; padding-left: 20px;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose {border-color: #d1e6f1; background-color: #deecf5; width: auto; padding: 1px;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner {background-color: #ebf4f9; border-color: #e6f2f7; width: 635px; padding-left: 0;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table {width: 100%;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td {background-color: #f1f8fb; width: 200px;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td
+													{background-color: #EEF6FA; background-image: none;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner > table tbody tr td + td
+													{background-image: url(/_Assets/ParkSites/Images/bg/AllDayDining-tablearrowbg-1big-a.png); background-color: #EEF6FA}
+													
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td table tbody tr td + td
+													{background: none;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td + td + td + td {background-color: #ebf4f9; background-image: url(/_Assets/ParkSites/Images/bg/AllDayDining-tablearrowbg-2big-a.png); padding-left: 60px;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td table {width: 200px;}
+
+.content-maincontent-extras.ammenities .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner .content-maincontent-allday .content-maincontent-ticketbox-tixchoose .content-maincontent-ticketbox-tixchoose-inner table tbody tr td table tbody tr td {padding: 5px 0 5px 5px; }
+
+.content-container .content-maincontent-getrecboxes table.content-maincontent-expandoptions {width: 100%; border: 0; padding: 0; margin: 0; background: none;}
+.content-container .content-maincontent-getrecboxes table.content-maincontent-expandoptions tbody tr td {padding: 5px; background: #e2eff6; margin: 0; border: 0; font-size: 12px;}
+
+.content-maincontent-expandoptions tbody tr td:first-child {width: 27px;}
+
+.content-maincontent-tickets-question {position: relative; display: inline-block; margin-left: 4px; width: 6px; height: 6px; font-size: 9px; font-weight: bold; color: #fff; background: #666; padding: 3px; line-height: 6px; border: 1px solid #666; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; vertical-align: top; margin-top: 3px; cursor: pointer}
+
+/* 7/18 */
+
+.content-maincontent-ticketfilter-datetime {position: relative; height: 27px; line-height: 27px; float: right; margin-bottom: 4px; clear:both;}
+
+/*.content-maincontent-ticketfilter-datetime > .selector {margin-left: -35px;}
+.content-maincontent-ticketfilter-datetime > select {margin-left: -35px;} */
+
+
+/* Global Styles */
+
+.global-small {font-size: 11px;}
+.global-smaller {font-size: 10px;}
+.global-big {font-size: 13px;}
+.global-bigger {font-size: 15px;}
+
+.global-small a {font-size: 11px;}
+.global-smaller a {font-size: 10px;}
+.global-big a {font-size: 13px;}
+.global-bigger a {font-size: 15px;}
+
+.global-nosidepadding {padding-left: 0; padding-right: 0;}
+
+.global-padding10btm {padding-bottom:10px;}
+.global-padding20btm {padding-bottom:20px;}
+
+.global-pad10left {padding-left: 10px;}
+table.global-pad10left tr td, table.global-pad10left tr th {padding-left: 10px;}
+
+p.global-small {line-height: 12px;}
+p.global-smaller {padding-bottom: 12px; line-height: 12px;}
+.global-clear {clear: both; font-size: 0; width: 100%;}
+
+.global-img-left {float: left; margin: 0 10px 5px 0;}
+
+.global-img-right {float: right; margin: 0 0 5px 5px;}
+
+.global-left {display: inline-block; position: relative; float: left; vertical-align: top;}
+.global-right {display: inline-block; position: relative; float: right; vertical-align: top;}
+
+.global-fineprint {color: #8a9499; font-size: 10px;}
+
+.global-text-right { text-align: right !important; }
+
+/* Custom Modal Styles (for sea-modal JS library), see sea-modal.css for base styless*/
+
+.modal-overlay header, .modal-overlay section, .modal-overlay footer {width: 484px; padding-bottom: 20px;}
+
+.modal-overlay header {font-size: 20px; margin: 0;}
+
+.modal-overlay section {line-height: 18px;}
+
+
+.modal-overlay section li { list-style-position: inside; margin: 3px 0; }
+
+
+.modal-overlay section p {margin: 0; padding: 0; padding-bottom: 10px;}
+
+.modal-overlay footer {padding: 20px 0px 0px 0px; margin: 0px; border-top: 1px solid #dddfe0; font-size: 10px; color: #8a9499; background: none;}
+
+.externalModalContent header, .externalModalContent section, .externalModalContent footer {width: 474px; padding-bottom: 20px;}
+
+.externalModalContent header {font-size: 20px; margin: 0;}
+
+.externalModalContent section {line-height: 18px;}
+
+.externalModalContent section p {margin: 0; padding: 0; padding-bottom: 10px;}
+
+.externalModalContent footer {padding: 20px 0px 0px 0px; margin: 0px; border-top: 1px solid #dddfe0; font-size: 10px; color: #8a9499; background: none;}
+
+
+/* Dynamic Pricing Calendar */
+
+input.reservation-date     
+{
+	padding: 4px 20px 4px 0px;
+	font:normal 13px helvetica, arial, sans-serif;
+	vertical-align:middle;
+	text-align:center;
+	color:#808080;	
+	background: url("/_Assets/ParkSites/Images/bg/icon-calendar.png") no-repeat scroll 90px 5px #FFFFFF;
+    border: 1px solid #A5ADAD;
+    width: 90px;
+}
+
+/* END Dynamic Pricing Calendar */
+
+p.startingFrom
+{
+	padding: 0px; 
+	margin: 0px 5px; 
+}
+
+/* Promo Info */
+.content-maincontent .promoInfo
+{
+	padding: 10px 10px 10px 10px; 
+	/*height: 50px; */
+	background-color: #E2EFF6;
+	border: 2px solid #CFE5F0;
+}
+
+.content-maincontent .promoInfo .promoImage
+{
+	width: 50px; height: 100%; padding-right: 10px; display: inline-block; vertical-align: middle;
+}
+
+.content-maincontent .promoInfo .promoBody
+{
+	display: inline-block; height: 100%; vertical-align: middle; font-weight: bold; color: #293033;
+}
+
+/* Calendar */
+div.dp-popup
+{
+	padding: 5px 20px 20px 20px;
+}
+
+div.dp-popup p
+{
+	font-size: 10px;
+	line-height: 10px;
+	
+}
+
+div.dp-popup div.dp-nav-next
+{
+	top: 25px;
+	right: 20px;
+}
+
+div.dp-popup div.dp-nav-prev
+{
+	top: 25px;
+	left: 20px
+}
+
+div.dp-popup a#dp-close
+{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 14px;
+	height: 5px;
+	cursor: pointer;
+	background: url(/_Assets/ParkSites/Images/btn/close.png);
+	font-size: 0;
+}
+
+.promoPopupContainer p
+{
+	line-height: 24px; margin-bottom: 10px; font-size: 20px;
+	margin-top: -5px;
+}
+
+.promoPopupContainer input
+{
+	padding: 4px 4px;
+	width: 100px;
+	color: #999;
+	
+}
+
+.promoPopupContainer .action span
+{
+	background-position: 0 -609px;
+}
+
+.promoPopupContainer .action span span
+{
+	background-position: right -705px;
+	padding-right: 12px;
+}
+
+.promoPopupContainer .action span span span
+{
+	height: 20px;
+	padding: 10px 13px 0;
+	background-position: 0 -641px;
+	color: #fff;
+}
+
+
+.poptix-clear
+{
+    height:1px !IMPORTANT;
+}
+
+/* Errors */
+input[type="text"].error, div.error>div
+{
+	border: 1px solid red;
+}
+
+.datetime.error
+{
+	margin-left: -65px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.p2p .content-container 
+{	
+	overflow: hidden !IMPORTANT;
+}
+.content-maincontent-cartbox > table tbody tr.ends.subtotal td {
+	border-top: 1px solid #0078AE;
+}
+
+
+.content-maincontent-cartbox > table tbody tr.ends.total td.last, .content-maincontent-cartbox > table tbody tr.ends.total td+td+td {
+	border-top: 1px solid #E6EBEE !important;
+}
+.content-maincontent-cartbox > table tbody tr.ends.savings td
+{
+}
+.content-maincontent-cartbox > table tbody tr.ends.savings.item0 td#savings
+{
+	padding-top: 10px;
+}
+
+.content-maincontent-cartbox > table tbody tr.ends.savings.last td#yousave
+{
+	padding-bottom: 10px;
+}
+
+.content-maincontent-cartbox > table tbody tr.ends.savings td#savings, .content-maincontent-cartbox > table tbody tr.ends.savings td#yousave {
+    background-color: #E6EBEE !important;
+    text-align: right;
+    font-weight: bold;
+}
+
+header nav.nav-site ul.nav-primary li ul li input[type="text"], header nav.nav-site ul.nav-primary li ul li.last input[type="text"] {border: 1px solid #b1b2b3;}
+
+header nav.nav-site ul.nav-primary li ul li input, header nav.nav-site ul.nav-primary li ul li.last input {
+    color: #999999;
+	padding: 4px;
+    width: 100px;
+}
+
+header nav.nav-site ul.nav-primary li ul li .action span, header nav.nav-site ul.nav-primary li ul li.last .action span {
+    background-position: 0 -609px;
+}
+
+header nav.nav-site ul.nav-primary li ul li .action span span, header nav.nav-site ul.nav-primary li ul li.last .action span span {
+    background-position: right -705px;
+    padding-right: 12px;
+}
+
+header nav.nav-site ul.nav-primary li ul li .action span span span, 
+header nav.nav-site ul.nav-primary li ul li.last .action span span span 
+{
+    background-position: 0 -641px;
+    color: #FFFFFF;
+    height: 20px;
+    padding-bottom: 0;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+}
+
+.portal-front .button.big.action
+{
+	margin-left: 13px;
+	margin-top: 10px;
+	width: 220px;
+}
+
+.portal-front .button a
+{
+	text-decoration: none;
+	line-height: 16px;
+}
+
+.content-maincontent-extras .content-maincontent-allday .content-maincontent-allday-left, .content-maincontent-upsells .content-maincontent-allday .content-maincontent-allday-left
+{
+	display: inline-block; width: 136px; vertical-align: top; padding-right: 6px;
+}
+
+.content-maincontent-extras .content-maincontent-allday .content-maincontent-allday-right, .content-maincontent-upsells .content-maincontent-allday .content-maincontent-allday-right, .content-maincontent-extras.ammenities .content-maincontent-allday .content-maincontent-allday-right
+{
+	display: inline-block; width: auto; 
+}
+
+.content-maincontent-extras .content-maincontent-allday .content-maincontent-allday-right > p, .content-maincontent-upsells .content-maincontent-allday .content-maincontent-allday-right > p, .content-maincontent-extras .content-maincontent-allday .content-maincontent-allday-right span.global-big
+{
+	width: 600px; display: block;
+}
+
+.content-maincontent-extras.ammenities .content-maincontent-allday .content-maincontent-allday-left
+{
+	display: inline-block; width: 55px; height: 50px; vertical-align: top; padding-top: 15px;
+}
+
+.content-maincontent-extras.ammenities .content-maincontent-allday .content-maincontent-allday-right > p,
+.content-maincontent-extras.ammenities .content-maincontent-allday .content-maincontent-allday-right > div,
+.content-maincontent-extras.ammenities .content-maincontent-allday .content-maincontent-allday-right  span.global-big
+{
+	width: 600px; display: block;
+}
+
+.content-maincontent-tickets-exclaim {position: relative; display: inline-block; margin-left: 4px; width: 3px; height: 6px; font-size: 9px; font-weight: bold; color: #fff; background: #ff0000; padding: 3px; line-height: 6px; border: 1px solid #ff000; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; vertical-align: top; margin: 0 0 0 5px; cursor: pointer}
+
+.review-cart-item-name
+{
+}
+
+.review-cart-item-name.primary 
+{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.review-cart-item-notes
+{
+	font-style: italic;
+}

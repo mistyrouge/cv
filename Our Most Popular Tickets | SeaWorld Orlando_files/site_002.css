@@ -1,0 +1,45 @@
+/*----- Document -----*/
+html{
+	background: #FFF url('/_Assets/ParkSites/Themes/SeaWorld/Images/bg/html.png') repeat-x;
+}
+body, body.paid-media-landing-page{
+	background-image: url('/_Assets/ParkSites/Themes/SeaWorld/Images/bg/body.jpg');
+}
+
+/*----- Footer (Internal Navigation) -----*/
+footer section.nav-internal h1{
+	background-image: url('/_Assets/ParkSites/Themes/SeaWorld/Images/logo/seaworld-footer.png');
+}
+
+/*----- Paid Media Landing Page Styles -----*/
+.content-container h2,
+.content-container h3,
+.content-container h4,
+.content-container h5,
+.content-container h6,
+.paid-media-landing-page header h3,
+.paid-media-landing-page header h5,
+.paid-media-landing-page header h6,
+.paid-media-landing-page .content-subcontainer .content-maincontent h3,
+.paid-media-landing-page .content-subcontainer .content-maincontent h5,
+.paid-media-landing-page .content-subcontainer .content-maincontent h6{
+	color: #00A1B1;
+}
+.paid-media-landing-page .content-maincontent h4,
+.paid-media-landing-page .content-maincontent p strong{
+	color: #1e82c4;
+}
+.paid-media-landing-page header h2{
+	color: #005581;
+}
+
+.clock 
+{
+    background-image:url('/_assets/parksites/themes/seaworld/images/ico/clock.png');
+    width:29px;
+    height:29px;
+}
+aside.sidebar-right {
+	background:url('/_Assets/ParkSites/Images/bg/aside.png') no-repeat;
+}
+

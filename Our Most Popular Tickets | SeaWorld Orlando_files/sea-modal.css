@@ -1,0 +1,121 @@
+﻿.modal-overlay{
+	position: absolute;
+	width: 530px;
+	padding: 5px;
+	z-index: 103;
+	top: 492px;
+	display: none;
+	filter: alpha(opacity=0);
+	-moz-opacity:0.0;
+	opacity: 0.0;
+	color: #293033;
+	background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMmVmZjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(226,239,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(226,239,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(226,239,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(226,239,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(226,239,246,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(226,239,246,1) 100%); /* W3C */
+border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+webkit-border-radius: 5px;
+}
+
+.modal-overlay.short1 {width: 370px;}
+
+@media \0screen {
+	.modal-overlay {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eff6',GradientType=0 ); /* IE6-8 */}
+	}
+
+*+html .modal-overlay {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eff6',GradientType=0 ); /* IE6-8 */}
+	
+.modal-overlay-inner {position: relative; float: left; background: #fff; padding: 25px; width: 480px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+webkit-border-radius: 5px;}
+
+.modal-overlay.short1 .modal-overlay-inner {width: 320px;}
+
+.modal-overlay-corner {display: none;}
+
+@media \0screen {
+.modal-overlay-corner {display: block; position: absolute; width: 4px; height: 4px; font-size: 0; background: url(../img/bg/p2p-overlay-corners.png) no-repeat;}
+.modal-overlay-corner.top-left {top: -5px; left: -5px; background-position: top left;}
+.modal-overlay-corner.top-right {top: -5px; right: -5px; background-position: top right;}
+.modal-overlay-corner.btm-left {bottom: -5px; left: -5px; background-position: bottom left;}
+.modal-overlay-corner.btm-right {bottom: -5px; right: -5px; background-position: bottom right;}
+}
+*+html .modal-overlay-corner {display: block; position: absolute; width: 8px; height: 8px; font-size: 0; background: url(../img/bg/p2p-overlay-corners.png) no-repeat;}
+*+html .modal-overlay-corner.top-left {top: -5px; left: -5px; background-position: top left;}
+*+html .modal-overlay-corner.top-right {top: -5px; right: -5px; background-position: top right;}
+*+html .modal-overlay-corner.btm-left {bottom: -5px; left: -5px; background-position: bottom left;}
+*+html .modal-overlay-corner.btm-right {bottom: -5px; right: -5px; background-position: bottom right;} 
+	
+
+.modal-overlay-shadow
+{
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	background: #000;
+	z-index: 102;
+	top: 0;
+	left: 0;
+	display: none;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0.0;
+	opacity: 0.0;
+}
+
+.modal-overlay-close
+{
+	position: absolute;
+	width: 14px;
+	height: 15px;
+	top: 7px;
+	right: 10px;
+	cursor: pointer;
+	background: url(img/close.png);
+	font-size: 0;
+}
+
+.modal-overlay-data
+{
+	display: none;
+	position: absolute;
+	float: left;
+}
+
+.modal-overlay iframe
+{
+	width: 100%;
+	/*height: 100%;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+.modal-overlay span.error
+{
+	color: Red;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+
+.modal-overlay header, .modal-overlay section, .modal-overlay footer {width: auto; padding-bottom: 20px;}
+.modal-overlay.short1 header, .modal-overlay.short1 section, .modal-overlay.short1 footer {width: 324px;}
+
+.modal-overlay header {font-size: 20px; margin: 0;}
+
+.modal-overlay section {line-height: 18px;}
+
+.modal-overlay section p {margin: 0; padding: 0; padding-bottom: 10px;}
+
+.modal-overlay footer {padding: 20px 0px 0px 0px; margin: 10px 0 0; border-top: 1px solid #dddfe0; font-size: 10px; color: #8a9499; background: none; float: left}
+
+.modal-overlay .content-maincontent-allday { width: auto }
